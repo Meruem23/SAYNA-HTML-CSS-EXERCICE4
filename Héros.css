@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+body h1{
+    font-family: Spiderman;
+}
+body h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    background-color:#114C92;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+}
+.partie1{
+    margin-top: -20px;
+}
+.partie2{
+    margin-top: 32%;
+}
+.box{
+    display: flex;
+}
+.partie2 .leftbox{
+    margin-left: 30%;
+    
+}
+.partie3 img{
+    margin-top: -4%;
+}
+.partie4{
+    margin-top: 23%;
+    padding: 5%;
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+}
+.meilleur{
+    display: flex;
+    justify-content: space-around;
+}
+.meuf{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.bas{
+    padding-left: 19%;
+}
+.Partie5 .leftbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin-left: 7%;
+}
+.Partie{
+    display: flex;
+}
+.Partie5{
+    margin-top: -20px;
+}
+.misybg{
+    position: relative;
+    background-color:rgba(13, 139, 211, 0.5);
+    width: 32%;
+    height: 42%;
+    text-align: center;
+    padding: 3.4%;
+    margin-left: 49%;
+    margin-top: -7px;
+    
+}
+footer{
+    background-color: black;
+    padding: 5%;
+}
+ footer .haut{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.logomilieu {
+    padding: 4%;
+    margin-left: 40%;
+}
+

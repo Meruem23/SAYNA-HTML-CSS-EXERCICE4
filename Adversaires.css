@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+body h1{
+    font-family: Spiderman;
+}
+body h2{
+    font-family: 'Montserrat', sans-serif;
+}
+body p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color:#F1C553;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+    padding-bottom: 2%;
+}
+.partie11{
+    background-image: url(img7.png);
+    background-size: cover;
+    height:400px;
+    padding-top: 5%;
+    color: white;
+}
+.partie2{
+    background-color: #F1C553;
+}
+.image1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.image2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.card-body{
+    border: 5px solid black;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 1%;
+}
+footer{
+    background-color: black;
+    padding: 5%;
+}
+ footer .haut{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.logomilieu {
+    padding: 4%;
+    margin-left: 40%;
+}

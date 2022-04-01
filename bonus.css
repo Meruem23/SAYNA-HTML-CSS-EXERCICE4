@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+body h1{
+    font-family: Spiderman;
+}
+body h2{
+    font-family: 'Montserrat', sans-serif;
+}
+body p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #B11313;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+    
+}
+footer{
+    background-color: black;
+    padding: 5%;
+    margin-top: 10%;
+}
+ footer .haut{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.logomilieu {
+    padding: 4%;
+    margin-left: 40%;
+}

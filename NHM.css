@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans&family=Raleway:ital,wght@0,200;1,200&display=swap');
+body h1{
+    font-family: Spiderman;
+}
+body h2{
+    font-family: 'Montserrat', sans-serif;
+}
+body p{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: #B11313;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+}
+.titre{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.haut2{
+    padding-top: 10%;
+}
+.partie22{
+    margin-top: 5%;
+}
+.bouton2{
+    background-color:#B11313;
+    color: #ffff;
+    border: 1px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 7px;
+    border-radius: 2px;
+    border-color: #ffff;
+    border: 1px solid #ffff;
+    
+}
+.bouton20{
+    background-color:#ffff;
+    color: #B11313;
+    border: 1px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 7px;
+    border-radius: 2px;
+    border-color: #ffff;
+    border: 1px solid #ffff;
+}
+.input input{
+    border: 1px solid #ffff;
+    background-color: #114c92;
+    padding: 10px 20px 10px 20px;
+    color: #ffff;
+    border-radius: 20px;
+}
+.input1 input{
+    border: 1px solid #ffff;
+    background-color: #B11313;
+    padding: 10px 20px 10px 20px;
+    color: #ffff;
+    border-radius: 20px;
+}
+.bouton{
+    background-color: #114C92;
+    color: #ffff;
+    border: 1px;
+    padding: 15px 50px 15px 50px;
+    margin-top: 7px;
+    border-radius: 2px;
+    border-color: #ffff;
+    border: 1px solid #ffff;
+}
+.tableau{
+    justify-content: space-around;
+    padding: 10%;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 5%;
+}
+ footer .haut{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.logomilieu {
+    padding: 4%;
+    margin-left: 40%;
+}
+
+
+
+
+
+
